@@ -1,0 +1,115 @@
+.chat-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #EEEEEE;
+  border-radius: 0;
+  box-shadow: none;
+  overflow: hidden;
+}
+
+.chat-header {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-color: #C02034;
+  color: white;
+  font-size: 15px;
+  position: relative;
+}
+
+.header-image{
+  padding: 20px;
+}
+
+.user-name {
+  position: absolute; 
+  right: 40px;
+  top: 22px;
+  font-size: 18px;
+  color: white;
+}
+
+.link-ctt{
+  position:absolute;
+  left: 40px;
+  top: 22px;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+
+link-ctt:visited{
+  color: white;
+}
+
+.logo-placeholder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+}
+
+.chat-messages {
+  background-image: url("\logo_hust.png");
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex: 1;
+  padding-left: 25%;
+  padding-right: 25%;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow-y:scroll;
+  background-color: #EEEEEE;
+}
+
+.message-avatar{
+  display: inline;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.chat-input {
+  display: flex;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-bottom: 20px;
+  background-color: #EEEEEE;
+  position: sticky;
+  bottom: 0;
+  
+}
+
+.chat-input textarea {
+  flex: 1;
+  background-color: #d9d9d9;
+  align-content: center;
+  border: 0.5px solid #000;
+  padding-left: 20px;
+  border-radius: 45px;
+  resize: none;
+  height: 40px;
+  font-size: 16px;
+}
+
+.chat-input textarea:active{
+  border: 0.5px solid #000;
+}
+
+.send-image{
+  width: 40px;
+  height: 40px;
+}
+.chat-input button {
+  
+  border: none;
+  cursor: pointer;
+}
+
+.send-image button:hover {
+  background-color: #d9d9d9;
+}

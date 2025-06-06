@@ -1,0 +1,74 @@
+.app-container {
+  font-family: sans-serif inter;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  background-color: #C02034;
+  color: white;
+  padding: 10px 20px;
+}
+
+.menu-icon {
+  background-color: #D9D9D9;
+  display: flex;
+  height: 50px;
+  width: 50px;
+  align-items: center;
+}
+
+.menu-image{
+  background-color: #D9D9D9;
+  width: 40px;
+  height: 40px;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-image {
+  max-width: 150px;
+}
+
+.student-info {
+  font-size: 0.9rem;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.logo-image {
+  max-width: 300px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}   
+
+.input-field {
+  font-size: large;
+  height: 30px;
+  width: 1242px;
+  background-color: #D9D9D9;
+  border: 1px solid #000;
+  border-radius: 45px;
+  padding: 10px 20px;
+  flex: 1;
+}
